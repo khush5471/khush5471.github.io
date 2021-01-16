@@ -4690,18 +4690,25 @@ input, select, textarea {
 
 	.posts_skills{
 		display: flex;
-		justify-content:space-evenly;
+		justify-content:start;
 		flex-wrap: wrap
 
 	}
+
+	
 	h3{
 		margin: 10px
 	}
 	.split_contact{
 		display: flex;
-		justify-content: space-evenly
+		justify-content: space-between
 	}
 
+	
+	.coustom_h3{
+
+		color: #909498
+	}
 	.alt_custom{
 		display: flex;
 		flex-direction: column;
